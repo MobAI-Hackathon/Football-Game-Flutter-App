@@ -3,11 +3,38 @@
 ## Overview
 This is a Flutter-based mobile application that allows users to create their own **Algerian dream team** using **Premier League players**. The app integrates with **Firebase Firestore** to fetch and display player data from various clubs.
 
-## Features
-- 📸 **Dynamic UI**: Engaging visuals with a welcome screen and smooth navigation.
-- ⚽ **Build Your Team**: Select players based on their positions from Firestore.
-- 📡 **Real-time Data**: Fetch player data from Firebase Firestore.
-- 🌎 **User-Friendly Interface**: Developed using Flutter and Material Design principles.
+---
+
+## Implemented Features
+
+- **User Onboarding:**
+  - **Welcome Screen:** A visually engaging welcome screen with a full-screen background image and a call-to-action button to start using the app.
+  - **Landing Page:** An authentication landing page that provides options for login, sign up, and Google Sign-In integration.
+
+- **Authentication:**
+  - **Email/Password Login & Sign Up:** Secure user authentication with Firebase.
+  - **Google Sign-In:** Seamless authentication using Google accounts.
+  
+- **Team Management:**
+  - **Team Creation:** Users can create a new team by setting match parameters (team name and formation) through the **Match Parameters Page**.
+  - **Player Selection:** Browse and filter available players by position and search criteria. 
+    - **HomePage:** Displays available players fetched from Firestore.
+    - **Player Details Page:** Detailed view of a player's information with an option to add the player to the team.
+  - **Team Generation:** Users can generate a team based on the selected formation and available budget.
+  - **Saved Teams:** Manage saved teams, including viewing details, editing, and deleting teams on the **Create Team Page**.
+
+- **Match Simulation:**
+  - **Match Generation & Simulation:** Simulate a football match based on the selected team, with randomized events such as goals, assists, and cards.
+  - **Match Result:** Display detailed match results, including individual player performance and overall team statistics.
+  - **Match History:** Save and view past match results along with aggregated statistics on the **Save Page**.
+
+- **User Profile & Stats:**
+  - **Profile Page:** View user profile details including display name, email, and a profile picture (with a default image fallback).
+  - **Manager Statistics:** Display aggregated statistics such as total matches played, total points earned, wins, draws, losses, and win rate.
+
+- **Backend Integration:**
+  - **Firestore Integration:** Fetch player data from Firestore using the `PlayerService`, and store match results.
+  - **Firebase Core Initialization:** Proper Firebase initialization to ensure smooth operation across the app.
 
 ---
 
