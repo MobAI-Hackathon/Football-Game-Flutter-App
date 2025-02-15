@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "949400801436",
+    "project_id": "football-game-mobai",
+    "storage_bucket": "football-game-mobai.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949400801436:android:5f691408ff262df75e5d59",
+        "android_client_info": {
+          "package_name": "com.mobai.footballgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949400801436-6mqs6gh8hj9q00m746ke5686jnplekfi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobai.footballgame",
+            "certificate_hash": "f3a0a70b99a6af5d88f28087d0c0668e660d290c"
+          }
+        },
+        {
+          "client_id": "949400801436-q901i3l533e9mjt6hegi5363cogecrbs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobai.footballgame",
+            "certificate_hash": "2882e40ca1949a8a8b2941b94ea5804195cc4fba"
+          }
+        },
+        {
+          "client_id": "949400801436-vggjvr0ul5sb37e1rted68sm7vt6473u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCLNm0IdgMod0BDueS8SWhmuGIleWtHZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949400801436-vggjvr0ul5sb37e1rted68sm7vt6473u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
